@@ -1,0 +1,10 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Data: too large for git (2005.csv is 670 MB, train.csv 106 MB);
+# train/eval/holdout are recreated from 2005.csv by prepare_data.py
+# (the empty folder is kept via data/.gitkeep)
+data/*
+!data/.gitkeep
