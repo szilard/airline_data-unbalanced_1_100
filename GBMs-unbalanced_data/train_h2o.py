@@ -7,7 +7,7 @@ import pandas as pd
 from h2o.estimators import H2OGradientBoostingEstimator
 from sklearn.metrics import average_precision_score, precision_recall_curve, roc_auc_score, roc_curve
 
-data_dir = Path(__file__).parent / "data"
+data_dir = Path(__file__).parent.parent / "data"
 
 cat_cols = ["Month", "DayofMonth", "DayOfWeek", "UniqueCarrier", "Origin", "Dest"]
 num_cols = ["DepTime", "Distance"]
