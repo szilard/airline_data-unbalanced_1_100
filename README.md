@@ -6,6 +6,7 @@ An imbalanced binary classification dataset built from 2005 US flight data: pred
 ## Source
 
 `data/2005.csv`: the 2005 file of the US airline on-time data (ASA Data Expo 2009), 7,140,596 flights, 29 columns.
+Download it from the Harvard Dataverse: <https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/HG7NV7&version=1.0>.
 It is not in git (670 MB); put it in `data/` before running `prepare_data.py`.
 
 ## Preparation
